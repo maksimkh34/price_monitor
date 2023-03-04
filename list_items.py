@@ -25,4 +25,4 @@ def print_items(items):
         print(Color.green, end="")
     else:
         print(Color.red, end="")
-    print(str(int(total_profit)) + "¥")
+    print("{:.2f}".format(total_profit))
